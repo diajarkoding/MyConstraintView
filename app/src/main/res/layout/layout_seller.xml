@@ -7,6 +7,7 @@
 
     <TextView
         android:id="@+id/text_seller"
+        style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -31,6 +32,7 @@
         app:layout_editor_absoluteY="61dp" />
 
     <TextView
+        style="@style/TextContent.BodyMedium.Gray"
         android:id="@+id/profile_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -46,6 +48,7 @@
         app:layout_editor_absoluteY="140dp" />
 
     <Button
+        style="@style/ButtonGeneral.SecondaryVariant"
         android:id="@+id/button_buy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

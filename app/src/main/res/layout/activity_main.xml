@@ -27,6 +27,7 @@
             app:srcCompat="@drawable/pixel_google" />
 
         <TextView
+            style="@style/TextContent.BodyMedium.White.MarginAll"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -51,6 +52,7 @@
             app:layout_editor_absoluteY="193dp" />
 
         <TextView
+            style="@style/TextContent.HeadlineMedium.Bold"
             android:id="@+id/text_price"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -65,6 +67,7 @@
             app:layout_constraintTop_toBottomOf="@id/image_phone" />
 
         <TextView
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
             android:id="@+id/text_title"
             android:layout_width="match_parent"
             android:layout_height="24dp"
@@ -80,6 +83,7 @@
 
         <TextView
             android:id="@+id/text_description"
+            style="@style/TextContent.BodyMedium.Gray.MarginLeftRight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -91,15 +95,17 @@
             android:textColor="@android:color/black"
             app:layout_constraintBottom_toTopOf="@+id/guideline"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_title" />
+            app:layout_constraintTop_toBottomOf="@+id/text_title"
+            app:layout_constraintVertical_bias="0.0" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_begin="460dp" />
+            app:layout_constraintGuide_begin="501dp" />
 
         <include
             android:id="@+id/include_specifications"
